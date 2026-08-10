@@ -23,7 +23,7 @@ export const site = {
   logo: "/images/Untitled_design__6_-removebg-preview.png",
   developer: {
     name: "Flowrush Technologies",
-    url: "https://flowrushtech.com/",
+    url: "https://www.flowrushagency.com/",
   },
 } as const;
 

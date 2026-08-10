@@ -67,9 +67,13 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
           <p>
-            © {new Date().getFullYear()} {site.shortName}. Website Development by{" "}
+            © {new Date().getFullYear()} {site.shortName}.{" "}
             <a href={site.developer.url} target="_blank" rel="noreferrer">
-              {site.developer.name}
+              Website Development In Jaipur By Flowrush Technologies
+            </a>{" "}
+            And{" "}
+            <a href={site.developer.url} target="_blank" rel="noreferrer">
+              Website Maintenance In Jaipur By Flowrush Technologies
             </a>
             .
           </p>
