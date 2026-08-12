@@ -41,6 +41,49 @@ const industries = [
   "Industrial & Commercial Projects",
 ];
 
+const latestUpdates = [
+  {
+    src: "/updates/update-01.jpeg",
+    alt: "AB Infra team celebrating together in the office",
+  },
+  {
+    src: "/updates/update-02.jpeg",
+    alt: "Team celebration with cake at AB Infra office",
+  },
+  {
+    src: "/updates/update-03.jpeg",
+    alt: "Colleagues celebrating a milestone at AB Infra",
+  },
+  {
+    src: "/updates/update-04.jpeg",
+    alt: "AB Infra team members during an office celebration",
+  },
+  {
+    src: "/updates/update-05.jpeg",
+    alt: "Birthday celebration with the AB Infra team",
+  },
+  {
+    src: "/updates/update-06.jpeg",
+    alt: "Team bonding moment at AB Infra Solutions",
+  },
+  {
+    src: "/updates/update-07.jpeg",
+    alt: "Office celebration with colleagues at AB Infra",
+  },
+  {
+    src: "/updates/update-08.jpeg",
+    alt: "AB Infra team enjoying a festive office moment",
+  },
+  {
+    src: "/updates/update-09.jpeg",
+    alt: "Team members holding a gift at AB Infra celebration",
+  },
+  {
+    src: "/updates/update-10.jpeg",
+    alt: "AB Infra Solutions team celebrating a company update",
+  },
+];
+
 const milestones = [
   {
     title: "WTG Civil",
@@ -334,6 +377,29 @@ export default function AboutPage() {
               Every project we undertake reflects our dedication to quality,
               trust, and long-term value creation.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-soft">
+        <div className="container">
+          <SectionHeading
+            eyebrow="Company culture"
+            title="Latest Updates From Company"
+            description="Moments from our team celebrations, milestones, and life at A B Infrasolutions."
+            center
+          />
+          <div className="updates-grid">
+            {latestUpdates.map((item) => (
+              <article className="update-card" key={item.src}>
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width={600}
+                  height={750}
+                />
+              </article>
+            ))}
           </div>
         </div>
       </section>
