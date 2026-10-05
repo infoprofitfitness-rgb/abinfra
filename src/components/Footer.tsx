@@ -75,10 +75,6 @@ export default function Footer() {
             <a href={site.developer.url} target="_blank" rel="noreferrer">
               Website Maintenance In Jaipur By Flowrush Technologies
             </a>
-            . Social Media Account Handling And Marketing By{" "}
-            <Link href="/goblazingads-jaipur">
-              GoBlazing Ads – Digital Marketing Agency In Jaipur
-            </Link>
             .
           </p>
           <p className="footer-legal">

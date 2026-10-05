@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     "Our social media account handling and marketing is done by GoBlazing Ads — a digital marketing agency in Jaipur supporting A B Infrasolutions online presence.",
 };
 
+const GOBLAZING_URL = "https://goblazingads.com/";
+
 const services = [
   "Social media account handling",
   "Content planning and posting",
@@ -31,9 +33,16 @@ export default function GoBlazingAdsJaipurPage() {
           <SectionHeading
             eyebrow="Marketing partner"
             title="Social Media & Marketing By GoBlazing Ads"
-            description="Our social media account handling and marketing is done by GoBlazing Ads — Digital Marketing Agency In Jaipur."
           />
           <div className="content-block">
+            <p>
+              Our social media account handling and marketing is done by{" "}
+              <a href={GOBLAZING_URL} target="_blank" rel="noreferrer">
+                Social Media Account Handling And Marketing By GoBlazing Ads
+                Digital Marketing Agency In Jaipur
+              </a>
+              .
+            </p>
             <p>
               A B Infrasolutions Pvt Ltd works with GoBlazing Ads for social media
               management and digital marketing support. As a digital marketing
@@ -66,9 +75,12 @@ export default function GoBlazingAdsJaipurPage() {
           <div className="feature-card">
             <h3>Digital Marketing Agency In Jaipur</h3>
             <p>
-              GoBlazing Ads is our trusted partner for social media account
-              handling and marketing — helping A B Infrasolutions stay visible,
-              consistent, and connected online.
+              Learn more about our marketing partner:{" "}
+              <a href={GOBLAZING_URL} target="_blank" rel="noreferrer">
+                Social Media Account Handling And Marketing By GoBlazing Ads
+                Digital Marketing Agency In Jaipur
+              </a>
+              .
             </p>
             <p style={{ marginTop: "1rem" }}>
               Looking to connect with our team for infrastructure or power
