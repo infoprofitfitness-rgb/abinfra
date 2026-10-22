@@ -292,7 +292,16 @@ export default function HomePage() {
                 <strong>
                   This strong foundation enables us to deliver projects with
                   reliability, expertise, and trust.
-                </strong>
+                </strong>{" "}
+                Our{" "}
+                <a
+                  href="https://www.goblazingads.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Digital Marketing Services In Jaipur Handled By GoBlazing Ads
+                </a>
+                .
               </p>
             </div>
           </div>

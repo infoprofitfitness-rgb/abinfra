@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Our social media account handling and marketing is done by GoBlazing Ads — a digital marketing agency in Jaipur supporting A B Infrasolutions online presence.",
 };
 
-const GOBLAZING_URL = "https://goblazingads.com/";
+const GOBLAZING_URL = "https://www.goblazingads.com/";
 
 const services = [
   "Social media account handling",
